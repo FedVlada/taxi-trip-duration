@@ -100,7 +100,7 @@ Place the data files in the `data/` directory:
 
 4. **Run the notebook**
 ```bash
-jupyter notebook notebooks/nyc_taxi_trip_duration.ipynb
+jupyter notebook nyc_taxi_trip_duration.ipynb
 ```
 
 ## Key Findings from EDA
