@@ -151,3 +151,4 @@ Thumbs.db
 *.tmp
 *.temp
 /data/*
+/models/*

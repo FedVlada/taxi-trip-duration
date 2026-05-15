@@ -65,20 +65,7 @@ This metric is scale-invariant and penalizes underestimates more than overestima
 ```
 ├── nyc_taxi_trip_duration.ipynb    # Jupyter notebook with analysis
 ├── README.md                       # Project documentation
-├── requirements.txt
-├── data/
-│   ├── raw/
-│   │   ├── train.csv
-│   │   ├── test_data.csv
-│   │   ├── holiday_data.csv     # Historical holiday data
-│   │   ├── weather_data.csv     # Hourly weather conditions
-│   │   ├── osmr_data_test.csv   
-│   │   └── osrm_data_train.csv  # Real routing data from OpenStreetMap Routing Machine
-│   ├── processed/
-│   └── submissions/
-│       └── submission_gb.csv
-└── models/
-    └── trained_models.pkl
+└── requirements.txt
 ```
 
 ## Installation & Setup
