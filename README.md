@@ -65,6 +65,8 @@ This metric is scale-invariant and penalizes underestimates more than overestima
 ```
 ├── nyc_taxi_trip_duration.ipynb    # Jupyter notebook with analysis
 ├── README.md                       # Project documentation
+├── LICENSE                         # MIT license 
+├── gitignore
 └── requirements.txt
 ```
 
@@ -88,13 +90,13 @@ pip install -r requirements.txt
 ```
 
 3. **Download the data**
-Place the data files in the `data/raw/` directory:
-- `train.csv`
-- `holiday_data.csv`
-- `weather_data.csv`
-- `osrm_data_train.csv`
-- `test_data.csv`      (for test predictions)
-- `osrm_data_test.csv` (for test predictions)
+Place the data files in the `data/` directory:
+- `train.csv`              https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data
+- `holiday_data.csv`       https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Historical-Data
+- `weather_data.csv`       (request the data from me as others)
+- `osrm_data_train.csv`    https://github.com/Project-OSRM
+- `test_data.csv`          (for test predictions, the same link as "train")
+- `osrm_data_test.csv`     (for test predictions, the same link as "osmr_data_train")
 
 4. **Run the notebook**
 ```bash
